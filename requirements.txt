@@ -1,2 +1,4 @@
 python >= 3.8.10
 flask >= 3.0.3
+beautifulsoup4 >= 4.11.1
+pymongo >= 4.1.1
