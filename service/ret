@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang=en>
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+<!doctype html>
+<html lang=en>
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+<!doctype html>
+<html lang=en>
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+<!doctype html>
+<html lang=en>
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+{"msg":"\uc0bc\uc131\uc804\uc790","result":56800.0}
+{"msg":"\uc0bc\uc131\uc804\uc790","result":56800.0}
+{"msg":"\uc0bc\uc131\uc804\uc790","result":56800.0}
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+        <meta charset="UTF-8">
+        <title>List 보여주기</title>
+</head>
+<body>
+        <div id="service_title">No title</div>
+        <div id="service_content">
+                        NO content
+        </div>
+</body>
+<script src="/static/jquery-1.12.4.min.js"></script>
+<script src="/static/jquery-ui.js"></script>
+
+<script type="text/javascript">
+var list_info = '{}';
+console.log(list_info);
+var list_info_json = JSON.parse(list_info);
+console.log(list_info_json);
+
+$("#service_title").html("<h2>Service List - 종목 별 최근 주식가격</h2>");
+
+var table_html = '<table border="2">' +
+        '<th>종목</th>' +
+        '<th>주식가격</th>';
+for(var cname in list_info_json) {
+        var recent_value = list_info_json[cname];
+
+        table_html += '<tr>';
+        table_html += '<td>' + cname + '</td>';
+        table_html += '<td>' + recent_value + '</td>';
+        table_html += '</tr>';
+}
+table_html += '</table>';
+$("#service_content").html(table_html);
+
+</script>
+</html>
+{"msg":"\uc0bc\uc131\uc804\uc790","result":56800.0}
+{"msg":"\uc0bc\uc131\uc804\uc790","result":56800.0}
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+        <meta charset="UTF-8">
+        <title>List 보여주기</title>
+</head>
+<body>
+        <div id="service_title">No title</div>
+        <div id="service_content">
+                        NO content
+        </div>
+</body>
+<script src="/static/jquery-1.12.4.min.js"></script>
+<script src="/static/jquery-ui.js"></script>
+
+<script type="text/javascript">
+var list_info = '{}';
+console.log(list_info);
+var list_info_json = JSON.parse(list_info);
+console.log(list_info_json);
+
+$("#service_title").html("<h2>Service List - 종목 별 최근 주식가격</h2>");
+
+var table_html = '<table border="2">' +
+        '<th>종목</th>' +
+        '<th>주식가격</th>';
+for(var cname in list_info_json) {
+        var recent_value = list_info_json[cname];
+
+        table_html += '<tr>';
+        table_html += '<td>' + cname + '</td>';
+        table_html += '<td>' + recent_value + '</td>';
+        table_html += '</tr>';
+}
+table_html += '</table>';
+$("#service_content").html(table_html);
+
+</script>
+</html>
